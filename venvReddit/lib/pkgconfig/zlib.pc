@@ -1,0 +1,13 @@
+prefix=/Users/tayo/Documents/DataEngineer/Reddit-API-Pipeline-ETL/Reddit-ETL/venvReddit
+exec_prefix=/Users/tayo/Documents/DataEngineer/Reddit-API-Pipeline-ETL/Reddit-ETL/venvReddit
+libdir=/Users/tayo/Documents/DataEngineer/Reddit-API-Pipeline-ETL/Reddit-ETL/venvReddit/lib
+sharedlibdir=/Users/tayo/Documents/DataEngineer/Reddit-API-Pipeline-ETL/Reddit-ETL/venvReddit/lib
+includedir=/Users/tayo/Documents/DataEngineer/Reddit-API-Pipeline-ETL/Reddit-ETL/venvReddit/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
